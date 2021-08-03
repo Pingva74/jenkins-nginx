@@ -1,0 +1,27 @@
+
+version: '3'
+services:
+   nginx:
+     container_name: nginx-jenkins 
+     image: nginx:1.20-alpine
+     ports:
+       - "80:80"
+     volumes:
+       - ./data/nginx:/etc/nginx/conf.d
+       - ./data/html:/var/log/nginx
+       - ./data/logs:/var/log/nginx/jenkins
+     restart: always
+     environment:
+       TZ: Europe/Kyiv
+   jenkins:
+     depends_on:
+       - nginx
+     container_name: jenkins
+     image: myjenkins:rel1
+     restart: always
+     ports:
+       - "8080"
+     environment:
+       TZ: Europe/Kyiv
+     volumes:
+       - ./data/jenkins:/var/jenkins_home
