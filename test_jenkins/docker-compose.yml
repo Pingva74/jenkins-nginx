@@ -1,5 +1,5 @@
 
-version: '3'
+version: '3.8'
 services:
    nginx:
      container_name: nginx-jenkins 
@@ -16,12 +16,15 @@ services:
    jenkins:
      depends_on:
        - nginx
-     container_name: jenkins
-     image: myjenkins:rel1
-     restart: always
+     build:
+       context: .
+       dockerfile: Dockerfile
      ports:
        - "8080"
+     container_name: jenkins
      environment:
        TZ: Europe/Kyiv
+       JAVA_OPTS: "-Djenkins.install.runSetupWizard=false"
      volumes:
        - ./data/jenkins:/var/jenkins_home
+

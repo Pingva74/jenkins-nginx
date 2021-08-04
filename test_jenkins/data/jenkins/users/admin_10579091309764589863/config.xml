@@ -34,9 +34,6 @@
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.model.TimeZoneProperty/>
-    <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$WeTKmDBucmDnn8iQNoqGB.BeUHQOlXhiHeuUPy4HvLihR2yjf3q5W</passwordHash>
-    </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.34">
       <emailAddress>admin@gmail.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
@@ -51,5 +48,8 @@
       </roles>
       <timestamp>1627994229440</timestamp>
     </jenkins.security.LastGrantedAuthoritiesProperty>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$RV7g3bjvqIsm64cVKvBsVuFQtYqwwawryhhDoJT9NQe12kxnpEdOi</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
   </properties>
 </user>

@@ -96,3 +96,21 @@
 2021/08/04 07:14:15 [notice] 1#1: signal 17 (SIGCHLD) received from 24
 2021/08/04 07:14:15 [notice] 1#1: worker process 24 exited with code 0
 2021/08/04 07:14:15 [notice] 1#1: exit
+2021/08/04 08:22:44 [emerg] 1#1: host not found in upstream "jenkins:8080" in /etc/nginx/conf.d/app.conf:3
+2021/08/04 08:22:45 [emerg] 1#1: host not found in upstream "jenkins:8080" in /etc/nginx/conf.d/app.conf:3
+2021/08/04 08:22:45 [emerg] 1#1: host not found in upstream "jenkins:8080" in /etc/nginx/conf.d/app.conf:3
+2021/08/04 08:22:46 [emerg] 1#1: host not found in upstream "jenkins:8080" in /etc/nginx/conf.d/app.conf:3
+2021/08/04 08:22:47 [emerg] 1#1: host not found in upstream "jenkins:8080" in /etc/nginx/conf.d/app.conf:3
+2021/08/04 08:22:49 [emerg] 1#1: host not found in upstream "jenkins:8080" in /etc/nginx/conf.d/app.conf:3
+2021/08/04 08:22:52 [emerg] 1#1: host not found in upstream "jenkins:8080" in /etc/nginx/conf.d/app.conf:3
+2021/08/04 08:22:59 [emerg] 1#1: host not found in upstream "jenkins:8080" in /etc/nginx/conf.d/app.conf:3
+2021/08/04 08:23:12 [notice] 1#1: using the "epoll" event method
+2021/08/04 08:23:12 [notice] 1#1: nginx/1.20.1
+2021/08/04 08:23:12 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/08/04 08:23:12 [notice] 1#1: OS: Linux 3.10.0-1160.31.1.el7.x86_64
+2021/08/04 08:23:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/04 08:23:12 [notice] 1#1: start worker processes
+2021/08/04 08:23:12 [notice] 1#1: start worker process 23
+2021/08/04 08:23:12 [notice] 1#1: start worker process 24
+2021/08/04 08:23:12 [notice] 1#1: start worker process 25
+2021/08/04 08:23:12 [notice] 1#1: start worker process 26
