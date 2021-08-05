@@ -4,3 +4,15 @@ exit
 ls -l /usr/share/jenkins/
 учше
 exit
+ls -l /var/jenkins_home/jobs/
+whooami
+whoami
+exit
+exit
+ls -l /var/jenkins_home/
+ls -l /var/jenkins_home/jobs/
+exit
+ls -ltr /var/jenkins_home/jobs/
+exit
+ls -ltr /var/jenkins_home/jobs/
+exit
